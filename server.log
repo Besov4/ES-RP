@@ -1,0 +1,32 @@
+[22:30:59] alt:V Server 16.2.6 (release)
+[22:30:59] Starting alt:V Server on [::]:7788
+[22:30:59] Loading resource myjsresource
+[22:30:59] Loaded resource myjsresource
+[22:30:59] Loading resource chat
+[22:31:00] Loaded resource chat
+[22:31:00] Required server permissions:
+[22:31:00] Optional server permissions:
+[22:31:00] Starting HTTP server on [::]:7788
+[22:31:00] Main thread started (ThreadId: 21352)
+[22:31:00] EntityStreamer thread started (ThreadId: 17736)
+[22:31:00] SyncSend thread started (ThreadId: 21092)
+[22:31:00] SyncSend thread started (ThreadId: 7728)
+[22:31:00] SyncSend thread started (ThreadId: 16472)
+[22:31:00] SyncReceive thread started (ThreadId: 22320)
+[22:31:00] SyncSend thread started (ThreadId: 16676)
+[22:31:00] SyncSend thread started (ThreadId: 1280)
+[22:31:00] SyncReceive thread started (ThreadId: 15676)
+[22:31:00] SyncSend thread started (ThreadId: 22440)
+[22:31:00] NetworkWorker #1 thread started (ThreadId: 4400)
+[22:31:00] SyncSend thread started (ThreadId: 21460)
+[22:31:00] SyncReceive thread started (ThreadId: 22092)
+[22:31:00] SyncSend thread started (ThreadId: 20028)
+[22:31:00] SyncReceive thread started (ThreadId: 5400)
+[22:31:00] Console thread started (ThreadId: 2852)
+[22:31:00] Server started
+[22:32:08] Игрок подключен: Besov, отправляем showAuthUI
+[22:32:19] Авторизация успешна для игрока: Besov
+[22:45:38] Stopping resource myjsresource
+[22:45:38] Stopped resource myjsresource
+[22:45:38] Stopping resource chat
+[22:45:38] Stopped resource chat

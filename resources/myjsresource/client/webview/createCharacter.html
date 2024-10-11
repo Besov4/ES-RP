@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Создание персонажа</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключите файл стилей, если он есть -->
+</head>
+<body>
+    <div id="create-character-container">
+        <h1>Создание персонажа</h1>
+        <div id="input-fields">
+            <label for="character-name">Имя:</label>
+            <input type="text" id="character-name" placeholder="Введите имя">
+
+            <label for="character-surname">Фамилия:</label>
+            <input type="text" id="character-surname" placeholder="Введите фамилию">
+        </div>
+        
+        <div id="model-selection">
+            <h2>Выберите модель персонажа</h2>
+            <div id="model-gallery">
+                <!-- Добавьте сюда изображения или элементы, представляющие модели персонажей -->
+                <img src="model1.png" alt="Model 1" class="character-model" data-model-id="1">
+                <img src="model2.png" alt="Model 2" class="character-model" data-model-id="2">
+                <img src="model3.png" alt="Model 3" class="character-model" data-model-id="3">
+            </div>
+        </div>
+
+        <button id="create-character-btn">Создать персонажа</button>
+        <div id="error-container" style="color: red;"></div> <!-- Контейнер для отображения ошибок -->
+    </div>
+
+    <script src="createCharacter.js"></script> <!-- Подключаем файл JS, который будет взаимодействовать с AltV -->
+</body>
+</html>

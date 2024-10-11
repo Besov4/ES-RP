@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Selection</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #282c34;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Character Selection</h1>
+        <button class="button" onclick="selectCharacter('new')">Create New Character</button>
+        <button class="button" onclick="selectCharacter('existing')">Select Existing Character</button>
+    </div>
+
+    <script>
+        function selectCharacter(type) {
+            if (type === 'new') {
+                alt.emit('client:createCharacter');
+            } else if (type === 'existing') {
+                alt.emit('client:selectCharacter');
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+type = "js"
+main = "server/index.js"
+client-main = "client/index.js"
+client-files = [
+    "client/webview/auth.html",
+    "client/webview/auth.css",
+    "client/webview/auth.js",
+    "client/*"
+]
+webview = ["client/webview/auth.html"]
+webview-files = [
+    "client/webview/auth.html",
+    "client/webview/auth.css",
+    "client/webview/auth.js"
+]

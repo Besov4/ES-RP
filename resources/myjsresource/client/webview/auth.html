@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorization</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <div class="auth-container">
+        <h1>Welcome to GTA RP</h1>
+        <div id="loginForm">
+            <h2>Login</h2>
+            <input type="email" id="loginEmail" placeholder="Email" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button onclick="login()">Login</button>
+            <p>Don't have an account? <a href="#" onclick="showRegister()">Register here</a></p>
+        </div>
+
+        <div id="registerForm" style="display: none;">
+            <h2>Register</h2>
+            <input type="text" id="registerName" placeholder="Full Name" required>
+            <input type="email" id="registerEmail" placeholder="Email" required>
+            <input type="password" id="registerPassword" placeholder="Password" required>
+            <input type="text" id="registerDiscord" placeholder="Discord ID" required>
+            <button onclick="register()">Register</button>
+            <p>Already have an account? <a href="#" onclick="showLogin()">Login here</a></p>
+        </div>
+    </div>
+
+    <script src="auth.js"></script>
+    
+    <div id="debugLog">
+        <h2>Лог отладки</h2>
+        <p id="logText">auth.js загружен</p>
+    </div>
+    
+    <script>
+        document.getElementById('logText').innerText = 'auth.js загружен';
+    </script>
+    
+</body>
+</html>

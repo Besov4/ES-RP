@@ -1,0 +1,19 @@
+#player-names {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Для предотвращения взаимодействий */
+    overflow: hidden;
+}
+
+.nameTag {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    position: absolute; /* Важно для позиционирования имени */
+}
+
+.pvp-mode {
+    color: purple; /* Цвет для режима PvP */
+}
